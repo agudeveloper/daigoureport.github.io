@@ -1,0 +1,1 @@
+# daigoureport.github.io
