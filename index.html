@@ -23,7 +23,7 @@
 		<div class="item-box clearfix left-half" >
 			<img src="https://agudeveloper.github.io/daigoureport.github.io/images/email.png" alt="gmail" style="width:50px; height:50px">
 			<div class="item-data">
-				<h3><a href="mailto:daigoureport@gmail.com">DaigouReport AT gmail DOT com</a></h3>
+				<h3><a style="color: black" href="mailto:daigoureport@gmail.com">DaigouReport AT gmail DOT com</a></h3>
 				<p>Email Address</p>
 			</div>
 		</div>
@@ -43,27 +43,26 @@
 	</div>
 	
 	
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<!--<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> -->
 
 <div id="id01" class="modal">
+	<form class="modal-content animate" action="/action_page.php">
+		<div class="container">
+			<label><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required>
 
-<form class="modal-content animate" action="/action_page.php">
-	<div class="container">
-		<label><b>Username</b></label>
-		<input type="text" placeholder="Enter Username" name="uname" required>
+			<label><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required>
 
-		<label><b>Password</b></label>
-		<input type="password" placeholder="Enter Password" name="psw" required>
+			<button type="submit">Login</button>
+			<input type="checkbox" checked="checked"> Remember me
+		</div>
 
-		<button type="submit">Login</button>
-		<input type="checkbox" checked="checked"> Remember me
-	</div>
-
-	<div class="container" style="background-color:#f1f1f1">
-	<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-	<span class="psw">Forgot <a href="#">password?</a></span>
-	</div>
-</form>
+		<div class="container" style="background-color:#f1f1f1">
+		<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+		<span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+	</form>
 </div>
 
 <script>
