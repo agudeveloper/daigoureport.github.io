@@ -13,6 +13,10 @@ p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 1em; line-height: 1
 p.ns{font-size: 1em; margin: 0.5em 0em 0em 0em;} /* p.ns{font-size: 0.875em; margin: 0em 0em 0em 5em;} 16px / 24px */
 small, p.small {margin: 0; font-size: 0.875em; line-height: 1.7142857142857142857142857142857em; margin-bottom: 1.7142857142857142857142857142857em} /* 14px / 24px */
 
+div{
+    text-align:center;
+}
+
 .item-box{
   margin-top:20px;
   padding: 6px 6px 6px 10px;
