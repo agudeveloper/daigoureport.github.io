@@ -28,6 +28,12 @@ div{
 	display: inline-block;
 	background-color: white;
 }
+.item-box .item-data h3{
+  line-height: 1em;
+  margin: 3px 0px 0px 0px;
+  font-size: 1em;
+
+}
 
 .left-half {
   float:left;
