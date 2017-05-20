@@ -13,6 +13,22 @@ p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 1em; line-height: 1
 p.ns{font-size: 1em; margin: 0.5em 0em 0em 0em;} /* p.ns{font-size: 0.875em; margin: 0em 0em 0em 5em;} 16px / 24px */
 small, p.small {margin: 0; font-size: 0.875em; line-height: 1.7142857142857142857142857142857em; margin-bottom: 1.7142857142857142857142857142857em} /* 14px / 24px */
 
+/*BGs*/
+.bg-fixed {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-image{
+	background-image: url('../images/bg.jpg');
+}
+
+
 /* Wrapper */
 .main{
   padding-top: 50px;
