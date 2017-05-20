@@ -33,11 +33,21 @@ small, p.small {margin: 0; font-size: 0.875em; line-height: 1.714285714285714285
 
 .login{
 	position: absolute;
-	bottom: 90%;
+	right:5%;
+	bottom: 85%;
 }
 .search{
 	position: absolute;
-	vertical-align: middle;
+	top: 50%;
+  right: 30%;
+  left: 30%;
+}
+
+.title{
+	position: absolute;
+	top: 40%;
+  right: 30%;
+  left: 30%;	
 }
 
 .item-box{
@@ -46,8 +56,7 @@ width: 50%;
 	display: inline-block;
 	background-color: white;
 	text-align: center;
-	position: absolute;
-	bottom: 10%;
+	position: absolute;	
 }
 
 .item-box img{
