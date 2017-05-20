@@ -45,8 +45,9 @@ small, p.small {margin: 0; font-size: 0.875em; line-height: 1.714285714285714285
 
 .title{
 	position: absolute;
+	width:100%;
 	text-align:center;
-	top: 30%;
+	top: 35%;
 }
 
 .item-box{
