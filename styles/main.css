@@ -31,6 +31,15 @@ small, p.small {margin: 0; font-size: 0.875em; line-height: 1.714285714285714285
   list-style: none;
 }
 
+.login{
+	position: absolute;
+	bottom: 90%;
+}
+.search{
+	position: absolute;
+	vertical-align: middle;
+}
+
 .item-box{
   margin-top:20px;
 width: 50%;
