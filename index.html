@@ -50,7 +50,7 @@
 		<h1 class="title">Daigou Report</h1>
 		<div class="search">
 			<form>
-				<input type="text" name="search" placeholder="Search..">
+				<input type="text" name="search" placeholder="Products, Brand name, WeChat ID, Weibo ID, etc…">
 			</form>
 		</div>
 	</body>
