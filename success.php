@@ -9,7 +9,7 @@
     }
 ?>
 
-<h1>Logged In!</h1>
+<p>Logged in. Here should show the user profile. </p>
 <form method="post" action="logout.php">
     <input type="submit" value="Logout">
 </form>
