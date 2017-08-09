@@ -306,7 +306,11 @@ input:checked + .slider:before {
 
 
 .onoffswitch {
-    position: relative; width: 90px;
+	position: absolute;
+	left:5%;
+	bottom: 85%;
+    
+	width: 90px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox {
