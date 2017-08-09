@@ -51,7 +51,10 @@ small, p.small {margin: 0; font-size: 0.875em; line-height: 1.714285714285714285
 	top:5%;
 	
 }
-
+.leftt{
+	position: relative;
+	left:5%;
+}
 .login{
 	position: relative;
 	right:5%;
