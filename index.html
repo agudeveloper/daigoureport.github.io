@@ -45,10 +45,13 @@
 	<body class="bg-fixed bg-image">
 		<!-- Main Tab Container -->
 		<!-- Rectangular switch -->
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
+<div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div>
 
 		<div class="login">
 			<button onclick="document.getElementById('userlogin').style.display='block'" style="width:auto; float: right;">Login</button> 
