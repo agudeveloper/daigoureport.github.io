@@ -326,12 +326,12 @@ input:checked + .slider:before {
     box-sizing: border-box;
 }
 .onoffswitch-inner:before {
-    content: "ON";
+    content: "ENG";
     padding-left: 10px;
     background-color: #34A7C1; color: #FFFFFF;
 }
 .onoffswitch-inner:after {
-    content: "OFF";
+    content: "中文";
     padding-right: 10px;
     background-color: #EEEEEE; color: #999999;
     text-align: right;
