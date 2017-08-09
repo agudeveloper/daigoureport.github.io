@@ -264,7 +264,6 @@ span.psw {
 
 .slider:before {
   position: absolute;
-  content: "";
   height: 26px;
   width: 26px;
   left: 4px;
@@ -272,8 +271,16 @@ span.psw {
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
+  content: "ON";
+  padding-left: 10px;
+  background-color: #34A7C1; color: #FFFFFF;
 }
-
+.slider:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
 input:checked + .slider {
   background-color: #2196F3;
 }
