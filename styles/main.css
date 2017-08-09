@@ -308,7 +308,7 @@ input:checked + .slider:before {
 .onoffswitch {
 	position: relative;
 	left:5%;
-	
+	bottom:85%;
 	width: 90px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
@@ -329,7 +329,7 @@ input:checked + .slider:before {
     box-sizing: border-box;
 }
 .onoffswitch-inner:before {
-    content: "ENG3";
+    content: "ENG";
     padding-left: 10px;
     background-color: #34A7C1; color: #FFFFFF;
 }
