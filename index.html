@@ -41,6 +41,10 @@
 		<!--new css-->
 		<link href="styles/main.css" rel="stylesheet" type="text/css"> 
 		<link href="styles/buttons.css" rel="stylesheet" type="text/css"> 
+		<link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="styles/demo.css" />
+		<link rel="stylesheet" type="text/css" href="styles/cs-select.css" />
+		<link rel="stylesheet" type="text/css" href="styles/cs-skin-elastic.css" />
 		  <!--<link href="http://www.bootcss.com/p/buttons/css/buttons.css" rel="stylesheet">-->
 	</head>
 	
@@ -60,22 +64,16 @@
 			<button class="button button-glow button-border button-rounded button-primary" onclick="document.getElementById('userlogin').style.display='block'" style="width:auto; float: right;">Login2</button> 
 		</div>
 		<h1 class="title">Daigou Report</h1>
-		<div class="search">
-<select name="Location" form="searchform">
-	<option value="ALL">All Location</option>
-	<option value="PRC">Mainland</option>
-  	<option value="HK">HongKong</option>
-  	<option value="TW">Taiwan</option>
-	<option value="Korea">Korea</option>
-	<option value="JPN">Japan</option>
-	<option value="USA">USA</option>
-  	<option value="Africa">Africa</option>
-  	<option value="NZ">New Zealand</option>
-	<option value="UK">UK</option>
-  	<option value="France">France</option>
-	<option value="Germany">Germany</option>
-  	<option value="Others">Others</option>
-</select>
+		<div class="search">		
+<section>
+				<select class="cs-select cs-skin-elastic">
+					<option value="" disabled selected>Select a Country</option>
+					<option value="france" data-class="flag-france">France</option>
+					<option value="brazil" data-class="flag-brazil">Brazil</option>
+					<option value="argentina" data-class="flag-argentina">Argentina</option>
+					<option value="south-africa" data-class="flag-safrica">South Africa</option>
+				</select>
+</section>
 			<form>
 				<input type="text" name="search" placeholder="Products, Brand name, WeChat ID, Weibo ID, etc…">
 			</form>
