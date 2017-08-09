@@ -51,41 +51,37 @@
 	<body class="bg-fixed bg-image">
 		<!-- Main Tab Container -->
 		<!-- Rectangular switch -->
-<div class="onoffswitch">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-    <label class="onoffswitch-label" for="myonoffswitch">
-        <span class="onoffswitch-inner"></span>
-        <span class="onoffswitch-switch"></span>
-    </label>
-</div>
-<button class="button button-glow button-border button-rounded button-primary" >About</button> 
 
-		<div class="login">
-			
-			<button class="button button-glow button-border button-rounded button-primary" onclick="document.getElementById('userlogin').style.display='block'" style="width:auto; float: right;">Login</button> 
+
+		<div class="topp">
+			<div class="onoffswitch">
+			    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+			    <label class="onoffswitch-label" for="myonoffswitch">
+				<span class="onoffswitch-inner"></span>
+				<span class="onoffswitch-switch"></span>
+			    </label>
+			</div>
+			<button class="button button-glow button-border button-rounded button-primary" >About</button> 
+			<button class="login button button-glow button-border button-rounded button-primary" onclick="document.getElementById('userlogin').style.display='block'" style="width:auto; float: right;">Login</button> 
 		</div>
 		<!--<h1 class="title">Daigou Report</h1>-->
 		<img src="https://agudeveloper.github.io/daigoureport.github.io/images/DR LOGO.png" alt="linkedIn" style="width:600px; height:300px;display: block; margin: auto;">
-		
-
-	<select class="button button-primary button-large" name="Location" form="searchform">
-		<option value="ALL">All Location</option>
-		<option value="PRC">Mainland</option>
-		<option value="HK">HongKong</option>
-		<option value="TW">Taiwan</option>
-		<option value="Korea">Korea</option>
-		<option value="JPN">Japan</option>
-		<option value="USA">USA</option>
-		<option value="Africa">Africa</option>
-		<option value="NZ">New Zealand</option>
-		<option value="UK">UK</option>
-		<option value="France">France</option>
-		<option value="Germany">Germany</option>
-		<option value="Others">Others</option>
-	</select>
-
-		<div class="search">		
-
+		<div class="search">	
+			<select class="button-dropdown" name="Location" form="searchform">
+				<option value="ALL">All Location</option>
+				<option value="PRC">Mainland</option>
+				<option value="HK">HongKong</option>
+				<option value="TW">Taiwan</option>
+				<option value="Korea">Korea</option>
+				<option value="JPN">Japan</option>
+				<option value="USA">USA</option>
+				<option value="Africa">Africa</option>
+				<option value="NZ">New Zealand</option>
+				<option value="UK">UK</option>
+				<option value="France">France</option>
+				<option value="Germany">Germany</option>
+				<option value="Others">Others</option>
+			</select>
 			<form>
 				<input type="text" name="search" placeholder="Products, Brand name, WeChat ID, Weibo ID, etc…">
 			</form>
