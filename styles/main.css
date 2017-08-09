@@ -50,7 +50,7 @@ small, p.small {margin: 0; font-size: 0.875em; line-height: 1.714285714285714285
 .login{
 	position: absolute;
 	right:5%;
-	bottom: 85%;
+	
 }
 .search{
 	position: absolute;
@@ -308,7 +308,7 @@ input:checked + .slider:before {
 .onoffswitch {
 	position: relative;
 	left:5%;
-	bottom:85%;
+	
 	width: 90px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
