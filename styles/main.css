@@ -1,7 +1,7 @@
 /* TYPOGRAPHY */
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
 h1, h2, h3, h4, h5, h6 {font-family:'Open Sans', sans-serif;color:#444;}
-p,label, span,buttons {font-family:'Open Sans', sans-serif;color:black;}
+p,label, span {font-family:'Open Sans', sans-serif;color:black;}
 h1 {margin: 0; font-size: 3.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
 h2 {margin: 0; font-size: 3em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
 h3 {margin: 0; font-size: 1.75em; line-height: 1.3333333333333333333333333333333em; margin-top: 0.2em; margin-bottom: 0.5em} /* 36px / 48px */ 
@@ -48,7 +48,7 @@ small, p.small {margin: 0; font-size: 0.875em; line-height: 1.714285714285714285
 }
 
 .login{
-	position: absolute;
+	position: relative;
 	right:5%;
 	
 }
@@ -127,6 +127,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
+/*
 buttons {
     background-color: #cc5500;
     color: white;
@@ -140,7 +141,7 @@ buttons {
 buttons:hover {
     opacity: 0.8;
 }
-
+*/
 /* Extra styles for the cancel button */
 .cancelbtn {
     width: auto;
