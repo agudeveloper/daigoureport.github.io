@@ -54,7 +54,7 @@ small, p.small {margin: 0; font-size: 0.875em; line-height: 1.714285714285714285
 }
 .search{
 	position: absolute;
-	top: 50%;
+/* top: 50%;*/
   right: 20%;
   left: 20%;
 }
