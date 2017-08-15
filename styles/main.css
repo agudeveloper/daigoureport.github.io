@@ -366,7 +366,7 @@ input:checked + .slider:before {
 
 
 .mui-switch {
-  width: 52px;
+  width: 75px;
   height: 31px;
   position: relative;
   border: 1px solid #dfdfdf;
@@ -412,6 +412,11 @@ input:checked + .slider:before {
       transition: border-color 0.4s, background-color ease 0.4s; }
       .mui-switch.mui-switch-animbg:checked:before {
 	       content: "中文";
+	      text-align:center;
+        transition: left 0.3s; }
+      .mui-switch.mui-switch-animbg:checked:after {
+	       content: "ENG";
+	      text-align:center;
         transition: left 0.3s; }
   .mui-switch.mui-switch-anim {
     transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s; }
