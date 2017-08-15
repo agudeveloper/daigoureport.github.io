@@ -401,7 +401,7 @@ input:checked + .slider:before {
     box-shadow: #64bd63 0 0 0 16px inset;
     background-color: #64bd63; }
     .mui-switch:checked:before {
-      left: 21px; }
+      left: 45px; }
   .mui-switch.mui-switch-animbg {
     transition: background-color ease 0.4s; }
     .mui-switch.mui-switch-animbg:before {
