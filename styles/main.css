@@ -154,7 +154,10 @@ buttons:hover {
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #f44336;
+    background-color: #ea4c88;
+}
+.cancelbtn:hover {
+    background-color: #d44179;
 }
 
 /* Center the image and position the close button */
