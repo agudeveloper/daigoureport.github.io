@@ -406,7 +406,7 @@ input:checked + .slider:before {
   .mui-switch.mui-switch-animbg {
     transition: background-color ease 0.4s; }
     .mui-switch.mui-switch-animbg:before {
-	    content: "ENG2";
+	    content: "ENG";
 	      text-align:center;
       transition: left 0.3s; }
     .mui-switch.mui-switch-animbg:checked {
@@ -414,7 +414,7 @@ input:checked + .slider:before {
       background-color: #64bd63;
       transition: border-color 0.4s, background-color ease 0.4s; }
       .mui-switch.mui-switch-animbg:checked:before {
-	       content: "中文2";
+	       content: "中文";
 	      text-align:center;
         transition: left 0.3s; }
   .mui-switch.mui-switch-anim {
