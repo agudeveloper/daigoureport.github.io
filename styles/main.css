@@ -369,6 +369,7 @@ input:checked + .slider:before {
   width: 75px;
   height: 31px;
   position: relative;
+	content: "test";
   border: 1px solid #dfdfdf;
   background-color: #fdfdfd;
   box-shadow: #dfdfdf 0 0 0 0 inset;
