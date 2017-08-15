@@ -183,10 +183,10 @@ span.psw {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-	top: 25%;
+	top: 22%;
 	left: 30%;
     width: 40%; /* Full width */
-    height: 50%; /* Full height */
+    height: 56%; /* Full height */
 	vertical-align: middle;
 	horizontal-align: middle;
     overflow: auto; /* Enable scroll if needed */
